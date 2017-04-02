@@ -1,0 +1,9 @@
+<%= form_for @user do |f| %>
+	First name: <%= f.text_field :first_name %><br />
+  Last name : <%= f.text_field :last_name %><br />
+  email : <%= f.text_field :email %><br />
+  major : <%= f.text_field :major %><br />
+  minor : <%= f.text_field :minor %><br />
+  payment_client_id : <%= f.text_field :payment_client_id %><br />
+  <%= f.submit %>
+<% end %>
